@@ -470,7 +470,7 @@ hr{
   nav ul{
     background-color: #00721e;
     position: fixed;
-    top: 0;
+    top: -300px;
     right: 0;
     width: 100vw;
     height: 300px;
