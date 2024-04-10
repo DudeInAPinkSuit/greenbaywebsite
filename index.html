@@ -10,7 +10,7 @@
     <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fearth.org%2Fnavigating-towards-sustainability-wind-powered-cargo-ships-and-the-future-of-the-shipping-industry%2F&psig=AOvVaw3k7ias1QHqac1eGhxfIgPl&ust=1712479360399000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjWiPaYrYUDFQAAAAAdAAAAABAE" />
     <title>Greenbay Shipping Corporation</title>
     <script src="https://kit.fontawesome.com/dbf3b908ea.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="images/greenbaylogo.png">
+    <link rel="icon" type="image/webp" href="images/greenbaylogo.webp">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,20 +19,23 @@
     <nav>
         <a href="#">
             <div class="logoarea">
-                <img src="" alt="">
                 <h3>Greenbay Shipping</h3>
             </div>
         </a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul id="sidemenu">
+            <li class="title"><h3>Greenbay Shipping</h3></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="exitmenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
     <div class="headertext">
         <h1>Navigate Seamless Logistics with <span>Greenbay Shipping</span></h1>
         <p>Your Partner in Expert Cargo Handling and Maritime Solutions</p>
+        <i class="fa-solid fa-angles-down"></i>
     </div>
 </div>
 <div id="about">
@@ -69,49 +72,106 @@
         </div>
         <div class="trustedcompanies">
             <h2>Trusted by these companies</h1>
-                <img src="images/trusted.png" alt="">
+            <div></div>
         </div>
     </div>
 </div>
 <hr>
 <div id="services">
     <div class="container">
-        <div class="row">
-            <div class="column1">
-                <h1>Services</h1>
-                <ul>
-                    <li><span>Stevedoring/Shipsiding Operations:</span><p>From loading to unloading, trust our skilled team to handle your cargo efficiently and safely at midstream.</p></li>
-                    <li><span>Ship Agency:</span><p>We ensure smooth port calls and provide comprehensive agency services for vessels of all sizes.</p></li>
-                    <li><span>Lighterage/Barging Services:</span><p>Seamlessly transfer your cargo between vessels or to ports not accessible by large ships.</p></li>
-                    <li><span>Customs Brokerage:</span><p>Navigate customs regulations effortlessly with our expert brokerage services.</p></li>
-                    <li><span>Ship Chartering:</span><p>Whether local or foreign, we arrange charters that suit your cargo and route requirements.</p></li>
-                    <li><span>Heavy Lift Cargo Handling:</span><p>Specialized in managing oversized and heavy cargo with precision and care.</p></li>
-                </ul>
+        <h1>Services</h1>
+        <div class="grid">
+            <div>
+                <i class="fa-solid fa-cubes-stacked"></i>
+                <h2>Bulk Cargo Transport</h2>
+                <p>
+                    Efficient and reliable transportation of bulk commodities, 
+                    including grains, ores, coal, and other raw materials. 
+                    We specialize in handling large volumes of cargo, ensuring 
+                    timely delivery and cost-effective solutions.
+                </p>
             </div>
-            <div class="column2">
-                <h1>Why Choose <span>Us</span></h1>
-                <ul>
-                    <li><span>Experience:</span><p>Decades of experience in maritime logistics.</p></li>
-                    <li><span>Reliability:</span><p>Trustworthy services ensuring on-time and safe delivery.</p></li>
-                    <li><span>Flexibility:</span><p>Tailored solutions to meet unique cargo and shipping needs.</p></li>
-                    <li><span>Customer Focus:</span><p>Dedicated to exceeding client expectations with personalized service.</p></li>
-                </ul>
+            <div>
+                <i class="fa-solid fa-passport"></i>
+                <h2>Customs Brokerage</h2>
+                <p>
+                    Navigating complex customs regulations with expertise and 
+                    efficiency. Our customs brokerage services ensure smooth 
+                    clearance and compliance, minimizing delays and optimizing 
+                    the clearance process for your shipments.
+                </p>
             </div>
+            <div>
+                <i class="fa-solid fa-anchor-circle-check"></i>
+                <h2>Chartering Services<br><span>(International & Local)</span></h2>
+                <p>
+                    Facilitating chartering of vessels for both international 
+                    and local routes. Whether you require a bulk carrier, tanker, 
+                    or specialized vessel, we arrange charters tailored to your 
+                    cargo requirements and shipping needs.
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-ship"></i>
+                <h2>Lighterage/Barging Services</h2>
+                <p>
+                    Flexible and seamless transfer of cargo between vessels or 
+                    to ports with limited access. Our lighterage and barging 
+                    services provide efficient solutions for transporting goods 
+                    along coastal areas and waterways.
+                </p>
+            </div>
+            
         </div>
     </div>
 </div>
 <div id="contact">
-    <div class="container">
-        <div class="contactrow">
-            <div class="contactcolumn1">
-
-            </div>
-            <div class="contactcolumn2">
-                
-            </div>
+    <h1>Contacts</h1>
+    <div class="contactrow1">
+        <div>
+            <p><span><i class="fa-solid fa-building"></i>Makati Office</span></p>
+            <p>
+                Unit 101, St. Michael Square<br>
+                8439 Mayapis corner Baticulin Streets<br>
+                San Antonio Village,<br>
+                1203, Makati City, Philippines
+            </p> 
+        </div>
+        <div>
+            <i class="fa-solid fa-phone"></i><div class="numbers">(632) 8805-2488<br> (632) 8881-4981</div>
+            <p><i class="fa-solid fa-fax"></i>(632) 8805-8584</p>
+            <p><a href="mailto:gbship1@gmail.com"><i class="fa-solid fa-envelope"></i>gbship1@gmail.com</a></p>
+        </div>
+    </div>
+    <h1>Bank Reference</h1>
+    <div class="contactrow2">
+        <div>
+            <h3>BANCO DE ORO (BDO)</h3>
+            <p>
+                Makati - P. Ocampo Sr. Ext. Branch
+                243 P. Ocampo Sr. cor. Flor De Liz St.,
+                Barangay La Paz, Makati City
+            </p>
+        </div>
+        <div>
+            <h3>METROPOLITAN BANK & TRUSTCOMPANY (MBTC)</h3>
+            <p>
+                Bagtikan - Pasong Tamo Branch
+                Cor. Chino Roces Avenue,
+                Makati City
+            </p>
+        </div>
+        <div>
+            <h3>PHILIPPINE NATIONAL BANK</h3>
+            <p>
+                Makati - Metropolitan Avenue Branch
+                1012 G/F, Buma Bldg Metropolitan Avenue
+                San Antonio Village Makati City
+            </p>
         </div>
     </div>
 </div>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
