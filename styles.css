@@ -304,7 +304,7 @@ nav ul li a{
 }
 .trustedcompanies div{
   width: 100%;
-  aspect-ratio: 6/1;
+  aspect-ratio: 4/1;
   background-image: url(images/trusted.webp);
   background-size: cover;
   background-position: center;
@@ -434,7 +434,7 @@ hr{
     padding: 25px;
   }
   .trustedcompanies div{
-    aspect-ratio: 2/1;
+    aspect-ratio: 1/1;
     background-image: url(images/trustedmobile.webp);
     background-size: cover;
     background-position: center;
@@ -525,7 +525,7 @@ hr{
     margin-top: 25px;
   }
   .trustedcompanies div{
-    aspect-ratio: 2/1;
+    aspect-ratio: 1/1;
     background-image: url(images/trustedmobile.webp);
     background-size: cover;
     background-position: center;
